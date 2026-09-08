@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520">
+<rect width="1100" height="520" fill="#FFF8EC"/>
+<ellipse cx="550" cy="415" rx="360" ry="55" fill="#D5C1A2"/>
+<path d="M275 390c30-205 160-305 275-305s245 100 275 305z" fill="#D99B45" stroke="#5A3825" stroke-width="12"/>
+<path d="M405 150l-35 80M495 112l-28 92M605 112l28 92M695 150l35 80" stroke="#FFF8EC" stroke-width="17" stroke-linecap="round"/>
+<text x="550" y="485" text-anchor="middle" font-family="Georgia,serif" font-size="32" fill="#5A3825">Weekly Baker's Special</text>
+</svg>

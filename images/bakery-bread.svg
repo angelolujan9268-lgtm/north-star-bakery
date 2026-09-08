@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FFF8EC"/><ellipse cx="450" cy="410" rx="330" ry="55" fill="#D5C1A2"/>
+<path d="M155 382c20-160 115-245 230-245 55 0 95 15 125 42 42-37 87-55 145-55 105 0 180 88 190 258z" fill="#D99B45" stroke="#5A3825" stroke-width="10"/>
+<path d="M260 205l-32 82M355 170l-25 90M590 170l25 90M685 205l32 82" stroke="#FFF8EC" stroke-width="16" stroke-linecap="round"/>
+<text x="450" y="480" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#5A3825">Fresh Handmade Breads</text>
+</svg>

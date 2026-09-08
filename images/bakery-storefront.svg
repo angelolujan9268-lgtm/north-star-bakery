@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FFF8EC"/><rect y="390" width="900" height="130" fill="#D9C3A5"/>
+<rect x="150" y="135" width="600" height="285" rx="8" fill="#E8D4B4" stroke="#5A3825" stroke-width="10"/>
+<rect x="205" y="230" width="150" height="150" fill="#BFD7E5" stroke="#5A3825" stroke-width="8"/>
+<rect x="545" y="230" width="150" height="150" fill="#BFD7E5" stroke="#5A3825" stroke-width="8"/>
+<rect x="392" y="245" width="116" height="175" fill="#8A5A3B" stroke="#5A3825" stroke-width="8"/>
+<path d="M135 165h630l-55-90H190z" fill="#D99B45" stroke="#5A3825" stroke-width="10"/>
+<rect x="265" y="112" width="370" height="78" rx="8" fill="#5A3825"/>
+<text x="450" y="162" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="bold" fill="#FFF8EC">North Star Bakery</text>
+<circle cx="456" cy="334" r="8" fill="#D99B45"/>
+</svg>

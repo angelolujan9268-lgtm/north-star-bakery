@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+<rect width="240" height="240" rx="120" fill="#FFF8EC"/>
+<circle cx="120" cy="120" r="108" fill="none" stroke="#D99B45" stroke-width="10"/>
+<path d="M66 150c18-48 90-48 108 0M83 141c3-30 20-49 37-49s34 19 37 49" fill="#D99B45" stroke="#5A3825" stroke-width="7" stroke-linecap="round"/>
+<path d="M96 100c-8-16-3-32 11-43M120 92c-5-18 2-35 17-45M144 101c3-18 14-30 28-37" fill="none" stroke="#5A3825" stroke-width="7" stroke-linecap="round"/>
+<text x="120" y="186" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#5A3825">NORTH STAR</text>
+<text x="120" y="209" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#2F2A26">BAKERY</text>
+</svg>
