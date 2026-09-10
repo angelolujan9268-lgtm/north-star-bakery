@@ -1,93 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="North Star Bakery | Contact">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact North Star Bakery for sourdough bread, cinnamon rolls, brownies, coffee, and pre-orders.">
   <title>North Star Bakery | Contact</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="top-strip">100 YEARS OF STARTER • ROOTED IN CHAMA, NEW MEXICO</div>
 <header class="site-header">
   <div class="header-inner">
-    <div class="brand-row">
-      <img class="logo" src="images/bakery-logo.png" alt="North Star Bakery logo">
-      <div>
-        <h1>Contact North Star Bakery</h1>
-        <p class="tagline">Fresh baking. Friendly neighborhood service.</p>
-      </div>
-    </div>
+    <a class="brand-mini" href="index.html">
+      <img src="images/north-star-logo.png" alt="North Star Bakery logo">
+      <strong>North Star Bakery</strong>
+    </a>
     <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li>
-      </ul>
+      <ul><li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="story.html">Our Story</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li></ul>
     </nav>
   </div>
 </header>
 <main id="main-content">
 
-<section>
-  <h2>Pre-Orders and Questions</h2>
-  <p>Use the form below to ask a question or request a pre-order. Please provide enough information for our bakery team to respond to your request.</p>
-  <form action="#" method="post">
-    <div class="form-row">
-      <fieldset>
-        <legend>Customer Information</legend>
-        <p>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" minlength="2" required>
-        </p>
-        <p>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </p>
-        <p>
-          <label for="pickup-date">Preferred Pickup Date</label>
-          <input type="date" id="pickup-date" name="pickup-date" required>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend>Request Information</legend>
-        <p>What type of request are you making?</p>
-        <p class="radio-row">
-          <input type="radio" id="preorder" name="request-type" value="pre-order" required>
-          <label for="preorder">Pre-order</label>
-        </p>
-        <p class="radio-row">
-          <input type="radio" id="question" name="request-type" value="general-question">
-          <label for="question">General question</label>
-        </p>
-        <p>
-          <label for="item-details">Item Details</label>
-          <textarea id="item-details" name="item-details" rows="5" minlength="10" required></textarea>
-        </p>
-        <p>
-          <label for="allergy-notes">Allergy Notes, if applicable</label>
-          <textarea id="allergy-notes" name="allergy-notes" rows="4"></textarea>
-        </p>
-      </fieldset>
-    </div>
-    <button type="submit">Send Request</button>
-  </form>
+<section class="page-hero">
+  <div class="section">
+    <p class="eyebrow">Questions • pre-orders • good bread</p>
+    <h1>Contact Us</h1>
+    <p>Use the form below to ask about a loaf, a batch of cinnamon rolls, brownies, coffee, or a larger order.</p>
+  </div>
 </section>
-<div class="grid">
-  <section>
-    <h2>Location</h2>
-    <p>North Star Bakery<br>125 North Star Avenue<br>Neighborhood Business District</p>
-  </section>
-  <section>
-    <h2>Hours of Operation</h2>
-    <p>Monday-Friday: 6:30 a.m.-6:00 p.m.<br>
-       Saturday: 7:00 a.m.-4:00 p.m.<br>
-       Sunday: 8:00 a.m.-2:00 p.m.</p>
-  </section>
-</div>
+
+<section class="section">
+  <div class="split">
+    <div>
+      <p class="section-kicker">Send a request</p>
+      <h2>What can we bake for you?</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Your Information</legend>
+          <p>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" minlength="2" required>
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </p>
+          <p>
+            <label for="pickup">Preferred pickup date</label>
+            <input id="pickup" name="pickup" type="date">
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Order Details</legend>
+          <p>
+            <label for="item">What are you interested in?</label>
+            <select id="item" name="item" required>
+              <option value="">Choose one</option>
+              <option>Sourdough bread</option>
+              <option>Cinnamon rolls</option>
+              <option>Brownies</option>
+              <option>Coffee</option>
+              <option>Large or custom order</option>
+            </select>
+          </p>
+          <p>
+            <label for="details">Tell us what you need</label>
+            <textarea id="details" name="details" rows="6" minlength="10" required></textarea>
+          </p>
+          <p class="radio-line">
+            <input id="updates" name="updates" type="checkbox">
+            <label for="updates">I would like to hear about future bake days.</label>
+          </p>
+        </fieldset>
+        <button type="submit">Send Request</button>
+      </form>
+    </div>
+    <aside class="info-card">
+      <img src="images/coffee.png" alt="Coffee with latte art" style="border-radius:16px;">
+      <h2 style="margin-top:1rem;">Northern New Mexico warmth.</h2>
+      <p>North Star Bakery is inspired by Chama, family tradition, and the belief that food made from scratch is worth the extra time.</p>
+      <p><strong>Specialty:</strong> sourdough bread, brownies, cinnamon rolls, and coffee.</p>
+      <p><strong>Starter roots:</strong> Chama, New Mexico.</p>
+    </aside>
+  </div>
+</section>
 
 </main>
 <footer class="site-footer">
-  <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
-  <p>125 North Star Avenue · Neighborhood Business District</p>
+  <div class="footer-inner">
+    <img class="footer-logo" src="images/north-star-logo.png" alt="">
+    <strong>North Star Bakery</strong>
+    <span>Handcrafted in Northern New Mexico • Made from scratch</span>
+    <span>100 years of starter, one loaf at a time.</span>
+    <small>&copy; 2026 North Star Bakery. All rights reserved.</small>
+  </div>
 </footer>
 </body>
 </html>

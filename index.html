@@ -1,69 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="North Star Bakery | Home">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Northern New Mexico sourdough bakery featuring a 100-year-old starter with roots in Chama, New Mexico.">
   <title>North Star Bakery | Home</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="top-strip">100 YEARS OF STARTER • ROOTED IN CHAMA, NEW MEXICO</div>
 <header class="site-header">
   <div class="header-inner">
-    <div class="brand-row">
-      <img class="logo" src="images/bakery-logo.png" alt="North Star Bakery logo">
-      <div>
-        <h1>North Star Bakery</h1>
-        <p class="tagline">Fresh baking. Friendly neighborhood service.</p>
-      </div>
-    </div>
+    <a class="brand-mini" href="index.html">
+      <img src="images/north-star-logo.png" alt="North Star Bakery logo">
+      <strong>North Star Bakery</strong>
+    </a>
     <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
-      </ul>
+      <ul><li><a href="index.html" aria-current="page">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="story.html">Our Story</a></li>
+<li><a href="contact.html">Contact</a></li></ul>
     </nav>
   </div>
 </header>
 <main id="main-content">
 
 <section class="hero">
-  <div>
-    <h2>Welcome to North Star Bakery</h2>
-    <p>North Star Bakery is a neighborhood bakery focused on fresh breads, pastries, cakes, and friendly service. We make food that brings families, friends, commuters, and our local community together.</p>
-    <a class="button" href="products.html">See Our Products</a>
+  <div class="hero-inner">
+    <div class="hero-card">
+      <p class="eyebrow">Northern New Mexico • Made from scratch</p>
+      <h1>North Star Bakery</h1>
+      <p>Slow-fermented sourdough, cinnamon rolls, brownies, and coffee made with a starter whose story reaches back about a century to Chama, New Mexico.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="menu.html">See What We Bake</a>
+        <a class="btn btn-light" href="story.html">Our 100-Year Starter</a>
+      </div>
+    </div>
   </div>
-  <img src="images/bakery-storefront.jpg" alt="North Star Bakery storefront-style graphic with baked goods">
 </section>
 
-<div class="grid">
-  <section>
-    <h2>What We're Known For</h2>
-    <p>We are known for handmade breads, fresh pastries, custom cakes, and seasonal baked goods prepared with carefully selected ingredients.</p>
-  </section>
-  <section class="callout">
-    <h2>Hours and Location</h2>
-    <p>Visit us at 125 North Star Avenue in the neighborhood business district.</p>
-    <p>Monday-Friday: 6:30 a.m.-6:00 p.m.<br>
-       Saturday: 7:00 a.m.-4:00 p.m.<br>
-       Sunday: 8:00 a.m.-2:00 p.m.</p>
-  </section>
-</div>
+<div class="pattern-divider" aria-hidden="true"></div>
 
-<section>
-  <h2>Featured Item of the Week</h2>
-  <picture>
-    <source media="(min-width: 800px)" srcset="images/bakery-feature-large.jpg">
-    <img src="images/bakery-feature-small.jpg" alt="Weekly featured baked item from North Star Bakery">
-  </picture>
-  <h3>Weekly Baker's Special</h3>
-  <p>Stop by this week to try our featured bakery item. Availability may be limited, so customers are encouraged to contact us ahead of time for larger orders.</p>
+<section class="section">
+  <span class="badge"><span class="star">✦</span> 100 Years of Starter</span>
+  <div class="split" style="margin-top:1.5rem;">
+    <div>
+      <p class="section-kicker">A century in every loaf</p>
+      <h2>Our starter has roots in Chama.</h2>
+      <p class="lead">The heart of North Star Bakery is a sourdough starter passed down by family friends from Chama, New Mexico. It has been kept alive for about 100 years, and we use that tradition as the starting point for bread that is simple, handmade, and meant to be shared.</p>
+      <a class="btn btn-outline" href="story.html">Read the Story</a>
+    </div>
+    <div class="feature-photo">
+      <img src="images/chama-train.png" alt="Historic steam train traveling through the green mountain landscape near Chama, New Mexico">
+    </div>
+  </div>
+</section>
+
+<section class="story-band">
+  <div class="section">
+    <p class="section-kicker">Fresh from our kitchen</p>
+    <h2>Good bread brings good people together.</h2>
+    <p class="lead">Everything we serve is made from scratch with a soft spot for old-school baking, warm coffee, and the flavors that make a kitchen feel like home.</p>
+  </div>
+</section>
+
+<section class="section">
+  <p class="section-kicker">The North Star favorites</p>
+  <h2>Simple things, made well.</h2>
+  <div class="menu-grid">
+    <article class="menu-card">
+      <img src="images/sourdough-bread.png" alt="Basket filled with rustic artisan sourdough loaves">
+      <div class="content">
+        <h3>Sourdough Bread</h3>
+        <p>Slow-fermented loaves with a crisp crust, soft center, and the flavor of our century-old starter.</p>
+      </div>
+    </article>
+    <article class="menu-card">
+      <img src="images/cinnamon-roll.png" alt="Scratch-made cinnamon roll with icing on a white plate">
+      <div class="content">
+        <h3>Cinnamon Rolls</h3>
+        <p>Soft, swirled, buttery rolls made from scratch and finished with a sweet glaze.</p>
+      </div>
+    </article>
+    <article class="menu-card">
+      <div class="brownie-card">
+        <div>
+          <div class="icon" aria-hidden="true">▦</div>
+          <h3>Brownies</h3>
+          <p>Rich, fudgy, scratch-made brownies for when bread is not quite enough.</p>
+        </div>
+      </div>
+    </article>
+    <article class="menu-card">
+      <img src="images/coffee.png" alt="Cup of coffee with latte art on a wooden surface">
+      <div class="content">
+        <h3>Coffee</h3>
+        <p>A warm cup to go with a fresh loaf, cinnamon roll, or brownie.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="split">
+    <div class="poster">
+      <img src="images/north-star-logo.png" alt="North Star Bakery circular logo featuring Northern New Mexico mountains and sourdough bread">
+    </div>
+    <div>
+      <p class="section-kicker">Our North Star</p>
+      <h2>Handcrafted in Northern New Mexico.</h2>
+      <p class="lead">We wanted North Star Bakery to feel like the place you stop when you want something warm, familiar, and made with care. No shortcuts. Just flour, time, tradition, and a kitchen that smells good.</p>
+      <div class="quote">“Good Bread Brings Good People Together.”</div>
+    </div>
+  </div>
 </section>
 
 </main>
 <footer class="site-footer">
-  <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
-  <p>125 North Star Avenue · Neighborhood Business District</p>
+  <div class="footer-inner">
+    <img class="footer-logo" src="images/north-star-logo.png" alt="">
+    <strong>North Star Bakery</strong>
+    <span>Handcrafted in Northern New Mexico • Made from scratch</span>
+    <span>100 years of starter, one loaf at a time.</span>
+    <small>&copy; 2026 North Star Bakery. All rights reserved.</small>
+  </div>
 </footer>
 </body>
 </html>
